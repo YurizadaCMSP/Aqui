@@ -1,0 +1,20 @@
+{
+  "name": "painel-discord-discloud",
+  "version": "1.0.0",
+  "description": "Painel administrativo web para bot Discord integrado à Discloud",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-session": "^1.17.3",
+    "passport": "^0.7.0",
+    "passport-discord": "^0.1.4"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}
